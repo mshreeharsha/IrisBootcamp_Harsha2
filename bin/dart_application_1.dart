@@ -4,7 +4,7 @@ import 'dart:io';
 //Print the first N Fibonacci numbers(N is specified by the user).
 
 void main(){
-  print("Enter the No of Terms required in the Fibonacci series : ");
+  print("Enter  No of Terms required in the Fibonacci series : ");
   int? N= int.parse(stdin.readLineSync()!);
   if (N==1){
     print(1);
